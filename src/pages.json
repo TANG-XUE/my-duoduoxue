@@ -1,0 +1,67 @@
+{
+    "pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+        {
+            "path": "pages/home/index",
+            "style": {
+                "navigationBarTitleText": "多多学"
+            }
+        },
+        {
+            "path": "pages/mine/index",
+            "style": {
+                "navigationBarTitleText": "多多学"
+            }
+        },
+        {
+            "path": "pages/telephone/index",
+            "style": {
+                "navigationBarTitleText": "多多学"
+            }
+        },
+        {
+            "path": "pages/consulting/index",
+            "style": {
+                "navigationBarTitleText": "多多学"
+            }
+        }
+
+    ],
+    "globalStyle": {
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "多多学",
+        "navigationBarBackgroundColor": "#F8F8F8",
+        "backgroundColor": "#F8F8F8"
+    },
+    "tabBar": {
+        "color": "#8a8a8a",
+        "selectedCol  or": "#d4237a",
+        "backgroundColor": "#fff",
+        "position": "bottom",
+        "borderStyle": "black",
+        "list": [{
+                "pagePath": "pages/home/index",
+                "text": "首页",
+                "iconPath": "./static/images/btm-sy.png",
+                "selectedIconPath": "./static/images/btm-sy-s.png"
+            },
+            {
+                "pagePath": "pages/telephone/index",
+                "text": "电话",
+                "iconPath": "./static/images/btm-tel.png",
+                "selectedIconPath": "./static/images/btm-tel-s.png"
+            },
+            {
+                "pagePath": "pages/consulting/index",
+                "text": "咨询",
+                "iconPath": "./static/images/btm-zx.png",
+                "selectedIconPath": "./static/images/btm-zx-s.png"
+            },
+            {
+                "pagePath": "pages/mine/index",
+                "text": "我的",
+                "iconPath": "./static/images/btm-my.png",
+                "selectedIconPath": "./static/images/btm-my-s.png"
+            }
+        ]
+    }
+}
